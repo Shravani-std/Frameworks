@@ -1,0 +1,14 @@
+dataset:
+  path: "D:\\AI\\Frameworks\\Pytorch\\Projects\\CNN\\data\\PlantVillage"
+  image_size : 224
+  batch_size: 32
+  num_workers: 4
+
+training:
+  epochs : 20
+  lr : 0.001
+  weight_decay : 0.0001
+
+model:
+  name: resnet18
+  num_classes: 10
