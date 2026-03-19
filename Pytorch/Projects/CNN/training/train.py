@@ -34,7 +34,7 @@ train_loader = get_loader(dataset, batch_size=32)
 
 # training loop
 def main():
-    for epoch in range(10):
+    for epoch in range(30):
 
         loss = train_epoch(
             model,
