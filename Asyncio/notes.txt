@@ -1,0 +1,14 @@
+Difference between Async and Asyncio
+
+# Coroutine function 
+async def main():
+    print("Start async main function ") 
+This function is waiting for acually execution of function without await 
+
+with asyncio.run(main()) we can still get the output without initializing await keyword
+coroutine doesn't give you out[ut untill await is executed]
+
+
+
+
+Asyncio: Multiple coroutine functions runs at a same time 
